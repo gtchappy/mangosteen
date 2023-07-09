@@ -1,7 +1,8 @@
 .Wrapper {
-  height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: column;
+  background-image:linear-gradient(to bottom,#5d33be 0%,#8f4cd7 100%) ;
 
   > header {
     flex-shrink: 0;
@@ -9,9 +10,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 66px;
+    color: #D4D4EE;
+    >img{
+      height: 100px;
+    }
   }
 
   > main {
+    display: flex;
     flex-grow: 1;
   }
 

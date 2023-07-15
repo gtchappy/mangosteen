@@ -1,8 +1,9 @@
 .Wrapper {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - var(--welcome-nav-height));
   flex-direction: column;
-  background-image:linear-gradient(to bottom,#5d33be 0%,#8f4cd7 100%) ;
+  background-image:linear-gradient(to bottom,var(--welcome-bg-start) 0%,var(--welcome-bg-end) 100%) ;
+  margin-bottom: 100px;
 
   > header {
     flex-shrink: 0;
